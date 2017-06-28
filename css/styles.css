@@ -3,8 +3,14 @@
 	text-rendering: optimizeLegibility;
 }
 
+html {
+	font-size: 16px;
+	height: 100vh;
+}
+
 body {
 	background-color: #f7f7f7;
+	height: 100%;
 }
 
 .container {
@@ -105,5 +111,5 @@ p {
 	font-size: 50px;
 	color: #696969;
 	font-family: 'Spectral', serif;
-	font-weight: 100;
+	font-weight: 300;
 }
