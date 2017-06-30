@@ -59,7 +59,7 @@ h5 {
 
 
 .nav ul li a {
-	padding: 16px 11px;
+	padding: 8px 11px;
 	font-family: 'Spectral', serif;
 	font-size: 18px;
 	color: #FFFFFF;
@@ -67,9 +67,14 @@ h5 {
 	font-weight: 100;
 }
 
-#history {
-	text-decoration: underline;
+a:hover {
+	border-bottom: 3px solid white;
 }
+
+#history {
+	font-weight: 500;
+ border-bottom: 3px solid white;
+ }
 
 .history {
 	width: 100%;
@@ -226,4 +231,13 @@ p {
 	margin-left: 18%;
 	padding-left: 160px;
 }
+}
+
+@media (min-width: 768px) and (max-height: 800px) {
+	.hero {
+		max-height: 80%;
+	}
+	h5 {
+		margin-top: 131px;
+	}
 }
