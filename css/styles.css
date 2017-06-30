@@ -61,15 +61,16 @@ h5 {
 .nav ul li a {
 	padding: 8px 11px;
 	font-family: 'Spectral', serif;
-	font-size: 18px;
+	font-size: 15px;
 	color: #FFFFFF;
 	text-decoration: none;
 	font-weight: 100;
 }
 
-.nav ul li a:hover {
+a:hover {
 	border-bottom: 3px solid white;
 }
+
 
 #history {
 	font-weight: 500;
@@ -92,7 +93,7 @@ h2 {
 	font-size: 30px;
 	color: #4D897E;
 	margin-left: 82px;
-	margin-bottom: 0;
+	margin-bottom: 24px;
 }
 
 h3 {
@@ -113,7 +114,7 @@ h4 {
 	color: #4D897E;
 	display: inline-block;
 	margin-left: 12px;
-	margin-top: 0;
+	margin-top: 0px;
 	margin-bottom: 12px;
 	font-weight: 300;
 }
@@ -124,6 +125,7 @@ p {
 	width: calc(100% - 85px);
 	line-height: 1.6;
 	margin-top: 0;
+	margin-bottom: 32px;
 	font-size: 19px;
 	color: #696969;
 	font-family: 'Spectral', serif;
@@ -166,6 +168,7 @@ p {
 
   .herobg {
   	height: 75vh;
+  	max-height: 700px;
   }
 
   .hero {
